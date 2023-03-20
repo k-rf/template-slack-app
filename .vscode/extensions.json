@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "alefragnani.project-manager",
+    "ms-vscode-remote.vscode-remote-extensionpack"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "template-slack-app",
+  "remoteUser": "template-slack-app",
+  "dockerComposeFile": "../docker-compose.dev.yaml",
+  "service": "application",
+  "workspaceFolder": "/workspaces",
+  "overrideCommand": true,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bierner.emojisense",
+        "Gruntfuggly.todo-tree",
+        "mutantdino.resourcemonitor",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "denoland.vscode-deno",
+        "irongeek.vscode-env",
+        "streetsidesoftware.code-spell-checker",
+        "yzhang.markdown-all-in-one",
+        "shd101wyy.markdown-preview-enhanced"
+      ],
+      "settings": {
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true
+        },
+        "[markdown]": {
+          "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+          "editor.unicodeHighlight.ambiguousCharacters": false,
+          "editor.unicodeHighlight.invisibleCharacters": false,
+          "diffEditor.ignoreTrimWhitespace": false,
+          "editor.wordWrap": "on",
+          "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+          },
+          "cSpell.fixSpellingWithRenameProvider": true,
+          "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+          "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
+        }
+      }
+    }
+  }
+}
